@@ -72,6 +72,9 @@ Book Store: Error for unknown ISBN: Warning! : Book not found in inventory
  Book Store: Removed outdated book: paperbook (2008)
  Book Store: Removed outdated book: Demo (2020)
 ```
+### output in console "main.py"
+![console](output.png)
+
 
 ---
 
