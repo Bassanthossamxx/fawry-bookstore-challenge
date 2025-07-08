@@ -54,5 +54,6 @@ except Exception as e:
 
 # Remove outdated books (older than 10 years)
 outdated = manager.remove_outdated_books(max_age=10, current_year=2025)
+
 for book in outdated:
     print(f" Book Store: Removed outdated book: {book.title} ({book.year})")
