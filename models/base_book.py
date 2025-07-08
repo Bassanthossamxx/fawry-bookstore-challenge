@@ -15,6 +15,8 @@ class BaseBook:
         self.quantity -= quantity
     def is_outdated(self,max_age,current_year):
         return (current_year - self.year) > max_age #it return true or false value
+    def is_sellable(self):
+        return True  # Default: sellable
 
 
 #------------------------- Test ---------------------
